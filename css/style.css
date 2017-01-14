@@ -6,6 +6,10 @@ header a{
 .container {
     width: auto;
 }
+article div.container{
+    width: 1280px;
+    padding: 0px;
+}
 nav.navigation{
 	font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
@@ -82,7 +86,18 @@ nav.navigation{
 li{
     margin-right: 5px;
 }
-.slider{
+.services{
+    min-height: 308px;
+    background: #f4f4f4;
+}
+.portfolio{
+    background: #2e3e4f;
+    min-height: 515px;
+}
+.slogan{
+    position: relative;
+    font-family: bebas_neueregular;
+    text-transform: uppercase;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
