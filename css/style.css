@@ -49,6 +49,9 @@ nav.navigation{
 .navbar-default .navbar-nav > li > a:hover{
     background: #12a3d6;
 }
+.search{
+    margin-right: 3px;
+}
 .nav-but{
     margin: 30px 10px;
 }
@@ -98,11 +101,13 @@ li{
     position: relative;
 }
 .slogan{
+    /*border: 1px solid black;*/
     position: absolute;
     top: 16%;
-    left: 26%;
+    left: 50%;
     color: #cccece;
     text-align: center;
+    margin-left: -325px;
 }
 .slogan h1{
     font-family: bebas_neueregular;
@@ -112,8 +117,22 @@ li{
 .slogan p{
     font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
 }
-
+.slogan_button{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px 58px;
+    color: #ffebca;
+    border-radius: 5px;
+}
+.slogan_button:hover{
+   text-decoration: none;
+    background: #f98561;
+    color: #ffebca;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -129,7 +148,12 @@ li{
     }
     .slogan{
         top: 18%;
-        left: 18%;
+        left: 50%;
+        margin-left: -320px;
+    }
+    .slogan p{
+        padding-bottom: 5px;
+        margin-bottom: 30px;
     }
 }
 /* Medium Devices, Desktops */
@@ -142,7 +166,8 @@ li{
     }
     .slogan{
         top: 18%;
-        left: 15%;
+        left: 50%;
+        margin-left: -295px;
     }
     .slogan h1 {
         font-size: 40px;
@@ -150,6 +175,14 @@ li{
     .slogan p {
         font-family: 'Ubuntu', sans-serif;
         font-size: 13px;
+    }
+    .slogan_button{
+        line-height: 80px;
+        font-size: 20px;
+    }
+    .slogan p{
+        padding-bottom: 5px;
+        margin-bottom: 0px;
     }
 }
 /* Small Devices, Tablets */
@@ -162,28 +195,46 @@ li{
         margin-top: 12px;
     }
     .slogan{
-        top: 18%;
-        left: 14%;
+        top: 5%;
+        left: 50%;
+        margin-left: -190px;
     }
     .slogan h1 {
         font-size: 40px;
+        margin-top: 0px;
     }
     .slogan p {
         font-family: 'Ubuntu', sans-serif;
         font-size: 11px;
+        margin-top: 10px;
+        margin-bottom: -15px;
+    }
+    .slogan_button{
+        font-size: 15px;
+        padding: 7px 25px;
+    }
+    .slider .slogan p.visible-xs{
+        text-align: center;
     }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .slogan{
-        top: 5%;
-        left: 5%;
+        top: 0%;
+        left: 50%;
+        margin-left: -140px;
     }
     .slogan h1 {
         font-size: 20px;
+        margin-top: 0px;
     }
     .slogan p {
         font-family: 'Ubuntu', sans-serif;
         font-size: 11px;
-    }
+        margin-top: 0px;
+        margin-bottom: -20px;
+    } .slogan_button{
+          font-size: 12px;
+          padding: 5px 20px;
+      }
 }
