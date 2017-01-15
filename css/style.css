@@ -94,11 +94,26 @@ li{
     background: #2e3e4f;
     min-height: 515px;
 }
-.slogan{
+.slider{
     position: relative;
+}
+.slogan{
+    position: absolute;
+    top: 16%;
+    left: 26%;
+    color: #cccece;
+    text-align: center;
+}
+.slogan h1{
     font-family: bebas_neueregular;
     text-transform: uppercase;
+    font-size: 60px;
 }
+.slogan p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -112,6 +127,10 @@ li{
     nav.navigation{
         width: auto;
     }
+    .slogan{
+        top: 18%;
+        left: 18%;
+    }
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 844px){
@@ -120,6 +139,17 @@ li{
     }
     li{
         margin-right: 0px;
+    }
+    .slogan{
+        top: 18%;
+        left: 15%;
+    }
+    .slogan h1 {
+        font-size: 40px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 13px;
     }
 }
 /* Small Devices, Tablets */
@@ -131,8 +161,29 @@ li{
     .butn{
         margin-top: 12px;
     }
+    .slogan{
+        top: 18%;
+        left: 14%;
+    }
+    .slogan h1 {
+        font-size: 40px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-   
+    .slogan{
+        top: 5%;
+        left: 5%;
+    }
+    .slogan h1 {
+        font-size: 20px;
+    }
+    .slogan p {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 11px;
+    }
 }
