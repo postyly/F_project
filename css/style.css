@@ -89,13 +89,10 @@ nav.navigation{
 li{
     margin-right: 5px;
 }
-.services{
-    min-height: 308px;
-    background: #f4f4f4;
-}
 .portfolio{
     background: #2e3e4f;
     min-height: 515px;
+    padding-top: 30px;
 }
 .slider{
     position: relative;
@@ -107,10 +104,10 @@ li{
     left: 50%;
     color: #cccece;
     text-align: center;
-    margin-left: -325px;
+    margin-left: -317px;
 }
 .slogan h1{
-    font-family: bebas_neueregular;
+    font-family: 'bebas_neueregular', sans-serif;
     text-transform: uppercase;
     font-size: 60px;
 }
@@ -133,6 +130,101 @@ li{
     background: #f98561;
     color: #ffebca;
 }
+
+.services{
+    min-height: 308px;
+    background: #f4f4f4;
+    position: relative;
+}
+.services_title{
+position: absolute;
+    left: 50%;
+    margin-left: -72px;
+    top: -15px;
+}
+.services_title p{
+    font-family: 'bebas_neueregular', sans-serif;
+    font-size: 22px;
+    color: #ffffff;
+    background: #2190c1;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    border: 1px solid #2190c1;
+    border-radius: 5px;
+    padding: 1px 26px;
+}
+.services_row{
+    width: 1016px;
+    text-align: center;
+    padding-top: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -508px;
+}
+.services_row h1{
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    color: #515862;
+}
+.services_row p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    color: #515862;
+    width: 150px;
+}
+.services_row a{
+    color: #3e9dd1;
+}
+.services_row a:hover{
+    text-decoration: none;
+    color: #f98561;
+}
+.portfolio_head{
+    padding-left: 175px;
+    padding-right: 175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.portfolio_head h1{
+    font-family: "Bree Serif", serif;
+    color: #f98561;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.portfolio_head a{
+    font-family: "Bree Serif", serif;
+    background: #2190c1;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 17px;
+    margin-top: 22px;
+}
+.portfolio_row{
+    margin-left: 110px;
+    margin-right: 110px;
+    margin-top: 70px;
+}
+.portfolio_row img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #ffffff;
+}
+.portfolio_row h1{
+    font-family:"Bree Serif", serif;
+    font-size: 17px;
+    color: #f98561;
+    margin-left: 15px;
+}
+.portfolio_row p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 11px;
+    color: #bcbcbc;
+    margin-left: 15px;
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -154,6 +246,10 @@ li{
     .slogan p{
         padding-bottom: 5px;
         margin-bottom: 30px;
+    }
+    .services_row{
+        width: 866px;
+        margin-left: -444px;
     }
 }
 /* Medium Devices, Desktops */
@@ -183,6 +279,10 @@ li{
     .slogan p{
         padding-bottom: 5px;
         margin-bottom: 0px;
+    }
+    .services_row{
+        width: 778px;
+        margin-left: -395px;
     }
 }
 /* Small Devices, Tablets */
@@ -215,6 +315,13 @@ li{
     }
     .slider .slogan p.visible-xs{
         text-align: center;
+    }
+    .services_row{
+        width: auto;
+        margin-left: -300px;
+    }
+    .services {
+        min-height: 600px;
     }
 }
 /* Extra Small Devices, Phones */
