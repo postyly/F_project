@@ -1,5 +1,10 @@
 body{
 }
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+}
 header a{
     text-transform: capitalize;
 }
@@ -64,15 +69,11 @@ nav.navigation{
 }
 
 .nav-but a:hover{
-    text-decoration: none;
     background: #f98561;
     color: #ffffff;
     padding: 3px 17px;
     border: 1px solid #f98561;
     border-radius: 5px;
-}
-.nav-but a:focus{
-    text-decoration: none;
 }
 .nav > li.search > a{
     font-size: 12px;
@@ -176,7 +177,6 @@ position: absolute;
     color: #3e9dd1;
 }
 .services_row a:hover{
-    text-decoration: none;
     color: #f98561;
 }
 .portfolio_head{
@@ -200,6 +200,9 @@ position: absolute;
     text-transform: capitalize;
     font-size: 17px;
     margin-top: 22px;
+}
+.portfolio_head a:hover{
+    color: #f98561;
 }
 .portfolio_row{
     margin-left: 110px;
