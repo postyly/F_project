@@ -228,6 +228,32 @@ position: absolute;
     margin-left: 15px;
 }
 
+.offer_content{
+    min-height: 660px;
+    width: 930px;
+    background: #f4f4f4;
+}
+.offer_title h1,
+.offer_title p,
+.offer_content h1,
+.offer_content p,
+.offer_people h1{
+    text-align: center;
+}
+.ceo_row{
+    width: 210px;
+}
+.ceo_row a{
+    padding-bottom: 40px;
+}
+.ceo_row a:hover{
+    border-bottom: 10px solid red;
+}
+.ceo1,
+.ceo2,
+.ceo3{
+    display: inline-block;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
