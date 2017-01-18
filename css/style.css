@@ -227,11 +227,12 @@ position: absolute;
     color: #bcbcbc;
     margin-left: 15px;
 }
-
 .offer_content{
-    min-height: 660px;
-    width: 930px;
+    font-family: 'Ubuntu', sans-serif;
     background: #f4f4f4;
+}
+.offer_content a{
+    text-transform: capitalize;
 }
 .offer_title h1,
 .offer_title p,
@@ -245,14 +246,98 @@ position: absolute;
 }
 .ceo_row a{
     padding-bottom: 40px;
+    border-bottom: 10px solid #c1c1c1;
 }
 .ceo_row a:hover{
-    border-bottom: 10px solid red;
+    border-bottom: 10px solid #f98561;
 }
 .ceo1,
 .ceo2,
 .ceo3{
     display: inline-block;
+    margin-bottom: 20px;
+}
+.offer_title{
+    margin-bottom: 38px;
+    margin-top: 35px;
+}
+.offer_title h1{
+    font-family: 'bebas_neueregular', sans-serif;
+    color: #2190c1;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.offer_title_2 h1{
+    font-family: 'bebasregular', sans-serif;
+    color: #2190c1;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+.offer_title_2 h1,
+.offer_title_2 p{
+    font-size: 27px;
+}
+.offer_title_2 p{
+    color: #515862;
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+.offer_row{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offer_row h1,
+.offer_row div:nth-child(2) a,
+.offer_title_2 p{
+    font-family: "Bree Serif", serif;
+}
+.offer_row div:nth-child(2) a{
+    line-height: 1.2px;
+}
+.offer_row h1{
+    color: #2b99cc;
+    font-size: 17px;
+}
+.offer_row p{
+    color: #515862;
+    font-size: 11px;
+    text-align: left;
+}
+.offer_row a{
+    font-size: 14px;
+    color: #2b99cc;
+}
+.offer_row .offer_button{
+    background: #2190c1;
+    color: #ffffff;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #2190c1;
+    border-radius: 4px;
+}
+.offer_title p{
+    color: #515862;
+    font-size: 12px;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+.offer_people h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f98561;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.cols{
+    width: 220px;
+    margin-right: 35px;
+}
+hr{
+    color: #9d9d9d;
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
