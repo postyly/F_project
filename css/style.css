@@ -249,13 +249,6 @@ position: absolute;
 .ceo_row{
     width: 210px;
 }
-/*.ceo_row a{*/
-    /*padding-bottom: 40px;*/
-    /*border-bottom: 10px solid #c1c1c1;*/
-/*}*/
-/*.ceo_row a:hover{*/
-    /*border-bottom: 10px solid #f98561;*/
-/*}*/
 .ceo1,
 .ceo2,
 .ceo3{
@@ -297,7 +290,7 @@ position: absolute;
 }
 .offer_title_2 p{
     color: #515862;
-    width: 850px;
+    width: 68%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
@@ -313,7 +306,7 @@ position: absolute;
 .offer_title_2 p{
     font-family: "Bree Serif", serif;
 }
-.offer_row div:nth-child(2) a{
+.offer_row div:nth-child(2n) a{
     line-height: 1.2px;
 }
 .offer_row h1{
@@ -364,8 +357,10 @@ position: absolute;
     margin-bottom: 30px;
 }
 .cols{
-    width: 220px;
-    margin-right: 35px;
+    /*width: 220px;*/                                                                       /*111111111111111111111111*/
+    /*margin-right: 35px;*/
+    width: 22%;
+    margin-right: 3%;
 }
 hr{
     color: #9d9d9d;
@@ -424,6 +419,15 @@ footer .footer_content form .mail{
 
 }
 
+/* my style */
+@media only screen and (max-width : 1024px) {
+    .offer_row{
+        width: 90%;                                 /*1111111111111111111111111*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
@@ -445,7 +449,21 @@ footer .footer_content form .mail{
         width: 866px;
         margin-left: -444px;
     }
+    .offer_title_2 h1{
+
+    }
+    .offer_title_2 p{
+        width: 80%;
+    }
+    .offer_row{
+        width: 50%;
+    }
+    .cols{
+        width: 100%;
+        margin-bottom: 35px;
+    }
 }
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 844px){
     .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
@@ -478,7 +496,30 @@ footer .footer_content form .mail{
         width: 778px;
         margin-left: -395px;
     }
+    .portfolio_head h1{
+        font-size: 25px;
+    }
+    .portfolio_row{
+        margin-top: 25px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .portfolio{
+        padding-top: 7px;
+    }
+    .portfolio_head a{
+        margin-top: 23px;
+        padding: 2px 5px;
+    }
+    .services_row{
+        padding-top: 30px;
+        height: 580px;
+    }
+    .services_row div{
+        margin-top: 30px;
+    }
 }
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
     .navbar-brand {
@@ -517,7 +558,22 @@ footer .footer_content form .mail{
     .services {
         min-height: 600px;
     }
+    .portfolio .portfolio_head h1{
+        float: none !important;
+        margin-bottom: 20px;
+    }
+    .portfolio .portfolio_head a{
+        float: none !important;
+    }
+    .portfolio .portfolio_head{
+        text-align: center;
+    }
+    .portfolio_col{
+        text-align: center;
+        margin-bottom: 45px;
+    }
 }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .slogan{
@@ -537,5 +593,25 @@ footer .footer_content form .mail{
     } .slogan_button{
           font-size: 12px;
           padding: 5px 20px;
+     }
+      .portfolio_head{
+          padding-left: 30%;
+          padding-right: 30%;
       }
+    .portfolio_head h1{
+        font-size: 17px;
+    }
+    .portfolio_row{
+        margin-top: 15px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .portfolio_head a{
+        margin-top: 23px;
+        padding: 2px 5px;
+        font-size: 12px;
+    }
+    .offer_row{
+        width: 70%;
+    }
 }
