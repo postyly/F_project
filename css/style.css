@@ -145,7 +145,7 @@ li{
 .services_title{
 position: absolute;
     left: 50%;
-    margin-left: -72px;
+    margin-left: -80px;
     top: -15px;
 }
 .services_title p{
@@ -414,6 +414,9 @@ footer .footer_content form .mail{
     background: #f98561;
     border-color: #f98561;
 }
+.f_cols{
+    margin-bottom: 35px;
+}
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 
@@ -425,6 +428,9 @@ footer .footer_content form .mail{
         width: 90%;                                 /*1111111111111111111111111*/
         margin-right: auto;
         margin-left: auto;
+    }
+    .services_row{
+        width: 960px;
     }
 }
 
@@ -449,9 +455,7 @@ footer .footer_content form .mail{
         width: 866px;
         margin-left: -444px;
     }
-    .offer_title_2 h1{
 
-    }
     .offer_title_2 p{
         width: 80%;
     }
@@ -461,6 +465,12 @@ footer .footer_content form .mail{
     .cols{
         width: 100%;
         margin-bottom: 35px;
+    }
+    .footer_row{
+        width: 60%
+    }
+    .footer_row form{
+        width: 200px;
     }
 }
 
@@ -518,6 +528,10 @@ footer .footer_content form .mail{
     .services_row div{
         margin-top: 30px;
     }
+    .offer_title_2 h1,
+    .offer_title_2 p{
+        font-size: 23px;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -551,12 +565,20 @@ footer .footer_content form .mail{
     .slider .slogan p.visible-xs{
         text-align: center;
     }
+    .services_title{
+        margin-left: -66px;
+    }
     .services_row{
         width: auto;
         margin-left: -300px;
+        left: 320px;
     }
     .services {
         min-height: 600px;
+    }
+    .services_title p{
+        font-size: 19px;
+        padding: 1px 18px;
     }
     .portfolio .portfolio_head h1{
         float: none !important;
@@ -582,7 +604,7 @@ footer .footer_content form .mail{
         margin-left: -140px;
     }
     .slogan h1 {
-        font-size: 20px;
+        font-size: 28px;
         margin-top: 0px;
     }
     .slogan p {
@@ -590,7 +612,11 @@ footer .footer_content form .mail{
         font-size: 11px;
         margin-top: 0px;
         margin-bottom: -20px;
-    } .slogan_button{
+    }
+    .services_title{
+        top: 5px;
+    }
+    .slogan_button{
           font-size: 12px;
           padding: 5px 20px;
      }
@@ -613,5 +639,8 @@ footer .footer_content form .mail{
     }
     .offer_row{
         width: 70%;
+    }
+    .footer_row{
+        width: 90%;
     }
 }
