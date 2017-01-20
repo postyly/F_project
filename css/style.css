@@ -64,17 +64,19 @@ nav.navigation{
     margin: 30px 10px;
 }
 .nav-but a{
-    padding: 5px 15px;
+    padding: 3px 15px;
     color: #515862;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
 }
 .nav-but:hover{
-    margin: 30px 7px;
+    margin: 30px 10px;
 }
 
 .nav-but a:hover{
     background: #f98561;
     color: #ffffff;
-    padding: 3px 17px;
+    padding: 3px 15px;
     border: 1px solid #f98561;
     border-radius: 5px;
 }
