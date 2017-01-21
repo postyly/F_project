@@ -655,4 +655,10 @@ footer .footer_content form .mail{
         min-height: 172px;
         background: #2d343a;
     }
+    .services{
+        height: 1100px;
+    }
+    .services_col{
+        width: 100%;
+    }
 }
